@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio",
   "main": "index.js",
+  "homepage": "https://reireynoso.github.io/modern_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Rei",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "gh-pages": "^2.0.1",
+    "node": "^11.10.0",
+    "node-sass": "^4.11.0",
+    "sass": "^1.17.1"
   },
   "devDependencies": {}
 }
