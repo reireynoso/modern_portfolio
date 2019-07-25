@@ -264,7 +264,9 @@ main {
     .menu-branding .portrait {
       background: url("../img/personal.JPG");
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      background-position: center; 
+    }
   .about-infor {
     grid-template-areas: 'bioimage'
  'bio'
