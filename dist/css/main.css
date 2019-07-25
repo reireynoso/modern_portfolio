@@ -55,9 +55,11 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.jpg");
+      background: url("../img/personal.JPG");
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #eece1a;
+      background-position: center;
+     }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -101,7 +103,7 @@ body {
   font-family: 'Segou UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    /* background: url(../img/background.jpg); */
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -154,7 +156,8 @@ main {
 .about-infor {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio'
+ 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-infor .bio-image {
     grid-area: bioimage;
@@ -263,7 +266,11 @@ main {
       width: 150px;
       height: 150px; }
   .about-infor {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bioimage'
+ 'bio'
+ 'job1'
+ 'job2'
+ 'job3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
